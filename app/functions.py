@@ -17,6 +17,14 @@ api_configs = {
     "streamwish": {
         "key": "13582uc1lasxn8w58ygse",
         "url": "https://api.streamwish.com/api/upload/url"
+    },
+    "doodapi": {
+        "key": "376614ml7l0hfanknuvyi2",
+        "url": "https://doodapi.com/api/upload/url"
+    },
+    "upstream": {
+        "key": "62199tturjoywvahvhobc",
+        "url": "https://upstream.to/api/upload/url"
     }
 }
 
