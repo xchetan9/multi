@@ -15,3 +15,7 @@ def upload_file():
         file_codes[api_name] = upload_to_api(api_config, url_to_upload)
 
     return jsonify(file_codes)
+
+@api.route('/')
+def running():
+    return jsonify({"status": "Server is running!"})
